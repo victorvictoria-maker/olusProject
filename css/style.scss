@@ -455,41 +455,7 @@ a:focus {
 // end about section
 
 
-// professional section
 
-.professional_section {
-  // background-color: $primary1;
-  // color: $white;
-  background-color: #d1e3ff;
-
-  .row {
-    align-items: center;
-  }
-
-  .img-box {
-    img {
-      width: 100%;
-    }
-  }
-
-  .detail-box {
-    h2 {
-      text-transform: uppercase;
-      font-weight: bold;
-      color: $primary1;
-    }
-
-    p {
-      margin-top: 20px;
-    }
-
-    a {
-      margin-top: 25px;
-      @include hero_btn($primary2, $white, 10px, 45px, 2px);
-
-    }
-  }
-}
 
 // end professional section
 
@@ -560,79 +526,6 @@ a:focus {
 
 // end service section
 
-// client section
-
-.client_section {
-  .heading_container {
-    align-items: center;
-    text-align: center;
-  }
-
-  .box {
-    margin: 15px;
-    box-shadow: 0 0 10px 0 rgba($color: #000000, $alpha: .2);
-    padding: 25px;
-
-    .client_id {
-      display: flex;
-
-      .img-box {
-        width: 125px;
-        min-width: 125px;
-        margin-right: 15px;
-
-        img {
-          width: 100%;
-          border-radius: 100%;
-        }
-      }
-
-      .client_detail {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex: 1;
-        padding-right: 25px;
-
-        .client_info {
-          h6 {
-            margin-bottom: 0;
-          }
-
-          i {
-            color: #fbaf5d;
-          }
-        }
-      }
-    }
-
-    .client_text {
-      margin-top: 20px;
-    }
-  }
-
-
-  .owl-carousel {
-    .owl-nav {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-
-      button {
-        width: 50px;
-        height: 50px;
-        background-color: $primary1;
-        outline: none;
-        margin: 0 20px;
-        color: $white;
-      }
-
-    }
-  }
-
-}
-
-// end client section
 
 
 // contact section
@@ -785,25 +678,3 @@ a:focus {
 // end info section
 
 
-
-/* footer section*/
-
-.footer_section {
-
-  background-color: #0a0f43;
-
-}
-
-.footer_section p {
-  margin: 0;
-  padding: 25px 0;
-  color: $white;
-  text-align: center;
-  border-top: .8px solid $white;
-}
-
-.footer_section a {
-  color: inherit;
-}
-
-/* end footer section*/
